@@ -1,0 +1,13 @@
+# Secrets: never commit
+secrets.yaml
+.env
+*.env
+
+# Private notes and real config
+private/
+*.local.yaml
+
+# Windows / editor clutter
+Thumbs.db
+desktop.ini
+.vscode/
